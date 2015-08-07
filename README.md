@@ -160,7 +160,7 @@ The same transport object can and should be reused several times.
 When the transport method is defined, it can be used to send e-mail with `sendMail`
 
 ```javascript
-var transport = nodemailer.createTransport("SMTP", {smtp_options});
+var transport = nodemailer.createTransport("SMTP", {smtp_options})
 
 transport.sendMail({
     from: "sender@tr.ee",
